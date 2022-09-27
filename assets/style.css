@@ -1,7 +1,7 @@
 body{
     background-color: #d3d3d3;
-    width: 1300px;
-    resize:horizontal;
+    width: 100%;
+    max-width: 1000px;
 }
 
 nav{
@@ -19,7 +19,7 @@ nav{
 
 .table-of-contents{
     position:absolute;
-    left:35%;
+    left:100%;
 }
 
 .vertical-line{
@@ -34,7 +34,7 @@ nav{
 .contact-me,
 .work{
     position:relative;
-    left:35%;
+    left:45%;
     top:50px;
 }
 
@@ -61,19 +61,33 @@ img{
     width:200px;
 }
 
-.container {
+.dog,
+.cat,
+.monkey,
+.rabbit  {
     position: relative;
     overflow: hidden;
     margin: 8px;
 }
 
-.container:before,
-.container:after{
+.dog:before,
+.dog:after,
+.cat:before,
+.cat:after,
+.monkey:before,
+.monkey:after,
+.rabbit:before,
+.rabbit:after{
     filter: blur(8px);
 }
 
-.container:hover > img {
+.dog:hover > img,
+.cat:hover > img,
+.monkey:hover > img,
+.rabbit:hover > img {
   opacity: 0.7;
 }
+
+
 
 
