@@ -2,7 +2,7 @@
 body{
     background-color: #d3d3d3;
     width: 100%;
-    max-width: 1000px;
+    max-width: 964px;
 }
 }
 
@@ -50,11 +50,6 @@ ul{
 
 li{
     display: inline;
-}
-
-img{
-    height:200px;
-    width:200px;
 }
 
 img:hover{
