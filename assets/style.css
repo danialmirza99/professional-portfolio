@@ -1,0 +1,33 @@
+body{
+    background-color: #d3d3d3;
+}
+
+#flex-container{
+    background-color: #f1f1f1;
+    height: 900px;
+    width: 400px;
+}
+
+.vertical-line{
+    border-left: 6px solid black;
+    height: 900px;
+    position:absolute;
+    left: 28%;
+}
+
+h2{
+    position: absolute;
+}
+
+.about-me{
+    position:absolute;
+    left:35%;
+}
+
+#name{
+    background-color: gray;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    line-height: 100px;
+}
