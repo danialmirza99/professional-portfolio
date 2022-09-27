@@ -8,6 +8,15 @@ nav{
     display: inline
 }
 
+#profile-picture{
+    position:absolute;
+    top: 150px;
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    left: 100px;
+}
+
 .table-of-contents{
     position:absolute;
     left:35%;
@@ -15,7 +24,7 @@ nav{
 
 .vertical-line{
     border-left: 6px solid black;
-    height: 900px;
+    height: 2000px;
     position:absolute;
     left: 28.35%;
 }
